@@ -18,5 +18,10 @@ After specify the path, run
 python visualize.py
 ```
 to get visualization of PanoRooms3D dataset.
+# Evaluation
+```
+python eval.py
+```
+
 
 
