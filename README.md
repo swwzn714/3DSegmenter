@@ -23,6 +23,13 @@ Set the swin depths, swin heads and d_model according to the pretrained model an
 ```
 python eval.py
 ```
-
+# Train
+```
+python train.py
+```
+# Distillation
+```
+python distill.py
+```
 
 
