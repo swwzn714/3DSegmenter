@@ -10,12 +10,12 @@ from network import create_segmenter
 IGNORE_LABEL = 255
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--room_dir', default='PanoRooms', help='path to panorooms')
-parser.add_argument('--checkpoint_dir', default='3DSeg-L-Distill.pth', help='path to saved checkpoint')
+parser.add_argument('--room_dir', default='Path to PanoRooms', help='path to panorooms')
+parser.add_argument('--checkpoint_dir', default='3DSeg-T.pth', help='path to saved checkpoint')
 parser.add_argument('--patch_size', type=int, default=4, help='patch size')
-parser.add_argument('--swin_depths', type=list, default=[4,8], help='swin depth, T:[2,2]; B:[2,4]; M:[3,6]; L:[4,8]')
-parser.add_argument('--swin_heads', type=list, default=[6,6], help='swin heads, T:[3,3]; B:[3,3]; M:[4,4]; L:[6,6]')
-parser.add_argument('--d_model', type=int, default=192, help='dim model, T:96; B:96; M:128; L:256')
+parser.add_argument('--swin_depths', type=list, default=[2,2], help='swin depth, T:[2,2]; B:[2,4]; M:[3,6]; L:[4,8]')
+parser.add_argument('--swin_heads', type=list, default=[3,3], help='swin heads, T:[3,3]; B:[3,3]; M:[4,4]; L:[6,6]')
+parser.add_argument('--d_model', type=int, default=96, help='dim model, T:96; B:96; M:128; L:256')
 parser.add_argument('--input_nf', type=int, default=4, help='input feature size')
 
 def create_label_mapping():
