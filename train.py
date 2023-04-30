@@ -13,7 +13,7 @@ _SPLITTER = ','
 parser = argparse.ArgumentParser()
 
 parser.add_argument('--save', default='./log', help='folder to output model checkpoints')
-parser.add_argument('--train_data', default='/media/wu/8TSSD/mergelabeldataset', help='folder of training files')
+parser.add_argument('--train_data', default='Path to panorooms3ddataset', help='folder of training files')
 parser.add_argument('--batch_size', type=int, default=1, help='input batch size')
 parser.add_argument('--patch_size', type=int, default=4, help='patch size')
 parser.add_argument('--swin_depths', type=list, default=[2,2], help='swin depth, T:[2,2]; B:[2,4]; M:[3,6]; L:[4,8]')
