@@ -6,3 +6,4 @@
 * [3D rooms(30GB)](https://drive.google.com/file/d/1AMfeOt6V_igSoM5xq17b9xh1p9KaHKW-/view?usp=sharing) 5917 3D living rooms and bedrooms together with semantic label.
 * [2D panoramas(342MB)](https://drive.google.com/file/d/1Mj36Y_tBDBzZRv20js-aBKp4QYy80nfm/view?usp=sharing) 2D panoramas rendered at room center. 
 * [Cropped Blocks(19.9GB)](https://drive.google.com/file/d/1jQjg9jW1OQtnLayzdZZlpnkyOZSSRrtW/view?usp=sharing) Cropped 128x128x128 blocks from rooms.
+Visualization of dataset
