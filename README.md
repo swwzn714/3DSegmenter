@@ -13,12 +13,13 @@ The code tested on python=3.9, pytorch=1.13.0 with the following packages: pytor
 pycuda 2022.1 is required for visualization.
 
 # Visualization of dataset
-After specify the path, run
+After specifying the path, run
 ```
 python visualize.py
 ```
 to get visualization of PanoRooms3D dataset.
 # Evaluation
+Set the swin depths, swin heads and d_model according to the pretrained model and run
 ```
 python eval.py
 ```
