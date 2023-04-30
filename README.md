@@ -7,5 +7,11 @@
 * [2D panoramas(342MB)](https://drive.google.com/file/d/1Mj36Y_tBDBzZRv20js-aBKp4QYy80nfm/view?usp=sharing) 2D panoramas rendered at room center. 
 * [Cropped Blocks(19.9GB)](https://drive.google.com/file/d/1jQjg9jW1OQtnLayzdZZlpnkyOZSSRrtW/view?usp=sharing) Cropped 128x128x128 blocks from rooms.
 * [Pretrained models and 2D teachers](https://drive.google.com/file/d/1Oh5NYdPn5ZBxwC0GKRyYFZgwS4EkbUhW/view?usp=sharing)
-Visualization of dataset
+# Requirements
+The code tested on python=3.9, pytorch=1.13.0 with the following packages: pytorch3d, open3d, opencv-python, tqdm, mmsegmentation, timm, einops.
+
+pycuda 2022.1 is required for visualization.
+
+# Visualization of dataset
+
 
