@@ -18,6 +18,9 @@ After specifying the path, run
 python visualize.py
 ```
 to get visualization of PanoRooms3D dataset.
+![5f687d94-bb4e-4a8f-938e-e988ddb7de2f_3](https://user-images.githubusercontent.com/41735931/235433510-87ef3e44-c127-44a6-8f65-fa6b5b29217e.jpg)
+![5f687d94-bb4e-4a8f-938e-e988ddb7de2f_3_mesh](https://user-images.githubusercontent.com/41735931/235433528-820d0116-0e89-4b96-a71f-e94a8214cdff.png)
+
 # Evaluation
 Set the swin depths, swin heads and d_model according to the pretrained model and run
 ```
