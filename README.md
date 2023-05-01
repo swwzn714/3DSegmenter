@@ -29,6 +29,7 @@ specify swin depths, swin heads and d_model and run training by
 python train.py
 ```
 # Distillation
+Set the directory to rooms and panoramas, 2D teacher checkpoint and 3D checkpoint before distillation.
 ```
 python distill.py
 ```
