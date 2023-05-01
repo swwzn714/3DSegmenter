@@ -24,6 +24,7 @@ Set the swin depths, swin heads and d_model according to the pretrained model an
 python eval.py
 ```
 # Train
+specify swin depths, swin heads and d_model and run training by
 ```
 python train.py
 ```
